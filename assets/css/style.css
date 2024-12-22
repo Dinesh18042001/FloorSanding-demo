@@ -1,0 +1,257 @@
+/* Font-Family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-font: "Poppins", sans-serif;
+    --primary-color: rgba(247, 82, 82, 1);
+    --secondary-color: rgba(74, 0, 0, 0.8);
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+p {
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+
+/* navbar section start */
+
+.header-scrolled {
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
+    background-color: #fff;
+    top: -80px !important;
+    left: 0;
+    width: 100% !important;
+    transform: translateY(80px) !important;
+    transition: transform 500ms ease, background 500ms ease !important;
+    z-index: 99;
+}
+
+
+.nav-item a {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(101, 101, 101, 1) !important;
+}
+
+.nav-item a h5 {
+    font-weight: 600;
+    font-size: 17px;
+    color: rgba(101, 101, 101, 1) !important;
+}
+
+.nav-btn a {
+    border: 1px solid #fff !important;
+    padding: 10px 20px !important;
+    background: var(--primary-color);
+    color: #fff !important;
+}
+
+.nav-item a:hover {
+    color: var(--secondary-color) !important;
+}
+
+a#mobileServicesDropdown {
+    color: #000;
+}
+
+.logo img {
+    width: 85%;
+}
+
+.offcanvas-header img {
+    border-radius: 10px;
+    border: 3px solid var(--secondary-color);
+}
+
+/* manu haver star */
+
+.nav-item .dropdown {
+    position: relative;
+}
+
+.drop_down {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
+    padding: 10px 20px;
+    z-index: 99;
+    width: 233px;
+    width: 300px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s linear;
+    list-style: none;
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
+}
+
+.nav-item.dropdown:hover>.drop_down {
+    visibility: visible;
+    opacity: 1;
+}
+
+.drop_down li a {
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.drop_down li {
+    list-style: none;
+}
+
+
+/* manu haver end */
+
+/* banner-sertion start */
+/* Banner Section */
+.banner-sertion .banner-img {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.banner-sertion .banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Overlay Effect */
+.banner-sertion .banner-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/* Banner Info Styling */
+.banner-sertion .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+}
+
+.banner-info p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner-info p img {
+    width: 28px !important;
+}
+
+.banner-info h2 {
+    font-weight: 800;
+    font-size: 65px;
+    color: transparent;
+    -webkit-text-stroke: 2px var(--primary-color);
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.banner-info h1 {
+    font-weight: 800;
+    font-size: 60px;
+    color: #fff;
+}
+
+.banner-info h5 {
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+}
+
+
+.person-img img{
+    width: 100%;
+}
+
+
+@media(max-width:991px){
+    .banner-sertion .container{
+        width: 80%;
+    }
+    .banner-info p{
+        margin-bottom: 10px;
+    }
+    .banner-info h2{
+        font-size:40px;
+        margin-bottom: 10px;
+    }
+    
+    .banner-info h1{
+        font-size: 40px;
+    }
+    .banner-info h5{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .person-img img{
+        width: 300px !important;
+        margin-right: 30px !important;
+    }
+}
+
+@media(max-width:576px){
+    .banner-info p{
+        margin-bottom: 10px;
+    }
+    .banner-info h2{
+        font-size:20px;
+        margin-bottom: 10px;
+        -webkit-text-stroke: 1px var(--primary-color);
+
+    }
+    
+    .banner-info h1{
+        font-size: 20px;
+    }
+    .banner-info h5{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .person-img img{
+        width: 200px !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+}

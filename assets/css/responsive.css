@@ -1,0 +1,6 @@
+
+@media(max-width:1199px){
+    .nav-item a{
+        font-size:12px !important;
+    } 
+}
