@@ -79,26 +79,6 @@ window.onscroll = function (){
 
 
 
-$(document).ready(function() {
-    $('.counter').each(function () {
-        var $this = $(this);
-        var countTo = $this.text(); 
-        var countValue = parseInt(countTo.replace(/[^0-9]/g, '')); 
-        var suffix = countTo.replace(/[0-9]/g, ''); 
-
-        $this.prop('Counter', 0).animate({
-            Counter: countValue
-        }, {
-            duration: 4000,
-            easing: 'swing',
-            step: function (now) {
-                $this.text(Math.ceil(now) + suffix); 
-            }
-        });
-    });
-});
-
-
 $('.testimonials-carousel').owlCarousel({
     loop: true,
     margin: 10,
@@ -111,10 +91,10 @@ $('.testimonials-carousel').owlCarousel({
             items: 1
         },
         600: {
-            items: 1
+            items: 2
         },
         1000: {
-            items: 2
+            items: 3
         }
     }
 });

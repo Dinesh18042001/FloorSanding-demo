@@ -181,3 +181,14 @@
         bottom: -10px;
     }
 }
+
+/* .floor-sanding-section start */
+@media(max-width:576px) {
+    .floor-sanding-section-info .floor-sanding-section-info-little h3 {
+     font-size: 22px;
+    }
+    .banner-tittle h3 {
+        font-size: 20px !important;
+    }
+  }
+/* .floor-sanding-section end */
