@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -21,16 +21,24 @@
     <!-- Owl CSS -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
     <title>Home</title>
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <div class="logo">
-                <img src="assets/images/logo/logo1.svg" alt="">
+            <div class="main-logo-box position-relative">
+                <div class="logo">
+                    <img src="assets/images/logo/logo1.svg" alt="">
+                </div>
+
+                <div class="logo-icon">
+                    <img src="assets/images/icon/logo-icon.svg" alt="">
+                </div>
             </div>
+
             <a data-bs-toggle="offcanvas" href="#offcanvasNavbar" role="button" aria-controls="offcanvasNavbar"
                 class="d-lg-none">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list"
@@ -42,13 +50,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item me-2">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link active" aria-current="page" href="#">About us</a>
-                    </li>
-                    <li class="nav-item me-2">
-                        <a class="nav-link active" aria-current="page" href="#">gallery</a>
+                        <a class="nav-link active" aria-current="page" href="about.html">About us</a>
                     </li>
 
                     <li class="nav-item me-2 dropdown">
@@ -91,7 +96,7 @@
     <!-- Mobile Nav -->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-            <img src="assets/images/logo/logo.png" alt="">
+            <img src="assets/images/logo/logo.png" alt="" />
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -126,27 +131,27 @@
                 </li>
                 <li class="nav-item me-2">
                     <a class="nav-link active" aria-current="page" href="#">
-                        <h5 class="m-0"><i class="fa-solid fa-phone"></i> 0412.238.860</h5>
+                        <h5 class="m-0">
+                            <i class="fa-solid fa-phone"></i> 0412.238.860
+                        </h5>
                     </a>
                 </li>
                 <li class="nav-item nav-btn">
-                    <a class="nav-link active" aria-current="page" href="#"> <img class="me-1"
-                            src="assets/images/icon/calendar.svg" alt=""> Get a Quote <i
-                            class="fa-solid fa-arrow-right"></i></a>
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <img class="me-1" src="assets/images/icon/calendar.svg" alt="" />
+                        Get a Quote <i class="fa-solid fa-arrow-right"></i></a>
                 </li>
             </ul>
         </div>
     </div>
     <!-- Mobile Nav -->
 
-
-
     <!-- banner-section-start -->
     <div class="banner-sertion position-relative">
         <div class="banner-carousel owl-carousel owl-theme">
             <div class="item">
                 <div class="banner-img position-relative">
-                    <img src="assets/images/banner/banner.webp" alt="">
+                    <img src="assets/images/banner/banner.webp" alt="" />
                     <div class="container">
                         <div class="row align-items-center">
                             <!-- Text Section -->
@@ -154,22 +159,22 @@
                                 <div class="banner-info">
                                     <p
                                         class="d-flex align-items-center gap-1 justify-content-center justify-content-md-start">
-                                        <img src="assets/images/icon/wood-planks.svg" alt="">Professional Timber
+                                        <img src="assets/images/icon/wood-planks.svg" alt="" />Professional Timber
                                     </p>
                                     <h2>Floor sanding All</h2>
                                     <h1 class="mb-3">types floor coating</h1>
                                     <h5>A finish you can count on.</h5>
 
                                     <div class="banner-btn mt-4">
-                                        <a href="#"><i class="fa-solid fa-phone me-1"></i> Contact us <i
-                                                class="fa-solid fa-arrow-right ms-1"></i></a>
+                                        <a href="#"><i class="fa-solid fa-phone me-1"></i> Contact us
+                                            <i class="fa-solid fa-arrow-right ms-1"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <!-- Image Section -->
                             <div class="col-lg-4 col-md-4 col-12 mt-4 mt-md-0 text-center">
                                 <div class="person-img">
-                                    <img src="assets/images/banner/man.svg" alt="">
+                                    <img src="assets/images/banner/man.svg" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -187,83 +192,800 @@
                 <div class="col-lg-6 order-lg-2 order-md-1 order-1">
                     <div class="about-info-box">
                         <div class="about-info-tittle">
-                            <h6><img class="me-1" src="assets/images/icon/wood-planks.svg" alt="">about us</h6>
+                            <h6>
+                                <img class="me-1" src="assets/images/icon/wood-planks.svg" alt="" />about us
+                            </h6>
                         </div>
                         <div class="about-info-main mt-4">
                             <h3>Creative solutions by professional designers</h3>
-                            <p class="mt-3">Looking for trusted experts in timber floor sanding and polishing Services? We can help! Classic Floor Sanders has been providing professional floor sanding throughout whole State Southern part of Tasmania.</p>
+                            <p class="mt-3">
+                                Looking for trusted experts in timber floor sanding and
+                                polishing Services? We can help! Classic Floor Sanders has
+                                been providing professional floor sanding throughout whole
+                                State Southern part of Tasmania.
+                            </p>
                         </div>
                         <div class="row highlight-box mt-4">
                             <div class="col-lg-6 mb-3">
                                 <div class="highlight-main d-flex align-items-center gap-2">
-                                    <img src="assets/images/about/Quality.svg" alt="">
+                                    <img src="assets/images/about/Quality.svg" alt="" />
                                     <p>Quality assured service</p>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="highlight-main d-flex align-items-center gap-2">
-                                    <img src="assets/images/about/satisfaction.svg" alt="">
+                                    <img src="assets/images/about/satisfaction.svg" alt="" />
                                     <p>Quality assured service</p>
                                 </div>
                             </div>
                         </div>
                         <div class="about-btn mt-4">
-                            <a href="#"><i class="fa-solid fa-user-group me-2"></i>About us <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                            <a href="#"><i class="fa-solid fa-user-group me-2"></i>About us
+                                <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- About Image Box (Show Second on Small & Medium Screens) -->
                 <div class="col-lg-6 order-lg-1 order-md-2 order-2">
                     <div class="about-img-box position-relative">
-                        <img src="assets/images/about/about.webp" alt="">
+                        <img src="assets/images/about/about.webp" alt="" />
                         <div class="line-box"></div>
                         <div class="exp-box">
                             <h6 class="text-center">Over</h6>
                             <h5 class="text-center">30</h5>
                             <p class="text-center">Years Experience Working</p>
                             <div class="trophy">
-                                <img src="assets/images/icon/vp.svg" alt="">
+                                <img src="assets/images/icon/vp.svg" alt="" />
                             </div>
                         </div>
                         <div class="about-icon">
-                            <img src="assets/images/about/about-icon.png" alt="">
+                            <img src="assets/images/about/about-icon.png" alt="" />
                         </div>
                         <div class="dot-icon">
-                            <img src="assets/images/icon/dot-icon.png" alt="">
+                            <img src="assets/images/icon/dot-icon.png" alt="" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <!-- about-section-end -->
 
-
     <!-- Services section start -->
-     <div class="service-section mb-5">
-      <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="service-info">
-                        <img src="assets/images/service/img1.png" alt="">
+    <div class="service-section mb-5">
+        <div class="bg_img position-relative">
+            <img src="assets/images/banner/inner-banner.png" alt="" class="inner-banner">
+            <div class="container-fluid inner_cont">
+                <div class="row gy-4">
+                    <div class="col-lg-3 p-0">
+                        <div class="service-info position-relative">
+                            <img src="assets/images/service/img1.png" alt="" />
+
+                            <div class="service-info-tittle p-4">
+                                <h5 class="d-flex align-items-center">
+                                    <img src="assets/images/icon/wood-planks.svg" alt="" />Our
+                                    Services
+                                </h5>
+                                <h6>
+                                    Residential and Commercial Floor Sanding and Polishing .
+                                </h6>
+                                <p>
+                                    All our projects are unique and designed to last. Take a look at our recent works to
+                                    find it out for yourself.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="container">
+                            <div class="row">
+                                <div class="service_item">
+                                    <div class="service-slide owl-carousel owl-theme">
+                                        <div class="item">
+                                            <div class="service_card">
+                                                <div class="service-img">
+                                                    <img src="assets/images/service/service1.png" alt="Service">
+                                                </div>
+                                                <div class="service_content">
+                                                    <div class="icon_container d-flex justify-content-end">
+                                                        <div class="icon">
+                                                            <img src="assets/images/icon/service-1.png" alt="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="title">
+                                                        <h5>Floor Sanding</h5>
+                                                        <p>Renew the charm of your floors with our expert floor sanding
+                                                            services. Our skilled craftsmen utilize state-of-the-art
+                                                            equipment to gently remove ..</p>
+                                                        <a href="#">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="service_card">
+                                                <div class="service-img">
+                                                    <img src="assets/images/service/service1.png" alt="Service">
+                                                </div>
+                                                <div class="service_content">
+                                                    <div class="icon_container d-flex justify-content-end">
+                                                        <div class="icon">
+                                                            <img src="assets/images/icon/service-1.png" alt="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="title">
+                                                        <h5>Floor Sanding</h5>
+                                                        <p>Renew the charm of your floors with our expert floor sanding
+                                                            services. Our skilled craftsmen utilize state-of-the-art
+                                                            equipment to gently remove ..</p>
+                                                        <a href="#">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="service_card">
+                                                <div class="service-img">
+                                                    <img src="assets/images/service/service1.png" alt="Service">
+                                                </div>
+                                                <div class="service_content">
+                                                    <div class="icon_container d-flex justify-content-end">
+                                                        <div class="icon">
+                                                            <img src="assets/images/icon/service-1.png" alt="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="title">
+                                                        <h5>Floor Sanding</h5>
+                                                        <p>Renew the charm of your floors with our expert floor sanding
+                                                            services. Our skilled craftsmen utilize state-of-the-art
+                                                            equipment to gently remove ..</p>
+                                                        <a href="#">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="service_card">
+                                                <div class="service-img">
+                                                    <img src="assets/images/service/service1.png" alt="Service">
+                                                </div>
+                                                <div class="service_content">
+                                                    <div class="icon_container d-flex justify-content-end">
+                                                        <div class="icon">
+                                                            <img src="assets/images/icon/service-1.png" alt="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="title">
+                                                        <h5>Floor Sanding</h5>
+                                                        <p>Renew the charm of your floors with our expert floor sanding
+                                                            services. Our skilled craftsmen utilize state-of-the-art
+                                                            equipment to gently remove ..</p>
+                                                        <a href="#">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-9"></div>
             </div>
         </div>
-     </div>
+    </div>
     <!-- Services section end -->
 
 
+    <!-- Project-gallery-start -->
+
+    <section class="pr_galler_warpper py-2">
+        <div class="container">
+            <div class="row text-center">
+                <div class="about-info-tittle">
+                    <h6>
+                        <img class="me-1" src="assets/images/icon/wood-planks.svg" alt="">Project Gallery
+                    </h6>
+                    <p>All our projects are unique and designed to last. Take a look at our recent works to find it out
+                        for yourself.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0 py-4">
+            <div class="row">
+                <div class="gallery_slide owl-carousel owl-theme">
+
+                    <div class="item">
+                        <div class="card-image">
+                            <div class="content-overlay"></div>
+                            <a href="assets/images/gallery/gallery1.png" data-fancybox="gallery"
+                                data-caption="Caption Images 1">
+                                <img src="assets/images/gallery/gallery1.png" alt="Image Gallery" />
+                                <p class="text-center">Classic Floor Sanding <span><i
+                                            class="fas fa-long-arrow-alt-right"></i></span></p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card-image">
+                            <div class="content-overlay"></div>
+                            <a href="assets/images/gallery/gallery1.png" data-fancybox="gallery"
+                                data-caption="Caption Images 1">
+                                <img src="assets/images/gallery/gallery1.png" alt="Image Gallery" />
+                                <p class="text-center">Classic Floor Sanding <span><i
+                                            class="fas fa-long-arrow-alt-right"></i></span></p>
+                            </a>
+                        </div>
+                    </div>
 
 
+                    <div class="item">
+                        <div class="card-image">
+                            <div class="content-overlay"></div>
+                            <a href="assets/images/gallery/gallery1.png" data-fancybox="gallery"
+                                data-caption="Caption Images 1">
+                                <img src="assets/images/gallery/gallery1.png" alt="Image Gallery" />
+                                <p class="text-center">Classic Floor Sanding <span><i
+                                            class="fas fa-long-arrow-alt-right"></i></span></p>
+                            </a>
+                        </div>
+                    </div>
 
 
+                    <div class="item">
+                        <div class="card-image">
+                            <div class="content-overlay"></div>
+                            <a href="assets/images/gallery/gallery1.png" data-fancybox="gallery"
+                                data-caption="Caption Images 1">
+                                <img src="assets/images/gallery/gallery1.png" alt="Image Gallery" />
+                                <p class="text-center">Classic Floor Sanding <span><i
+                                            class="fas fa-long-arrow-alt-right"></i></span></p>
+                            </a>
+                        </div>
+                    </div>
 
 
+                    <div class="item">
+                        <div class="card-image">
+                            <div class="content-overlay"></div>
+                            <a href="assets/images/gallery/gallery1.png" data-fancybox="gallery"
+                                data-caption="Caption Images 1">
+                                <img src="assets/images/gallery/gallery1.png" alt="Image Gallery" />
+                                <p class="text-center">Classic Floor Sanding <span><i
+                                            class="fas fa-long-arrow-alt-right"></i></span></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Project-gallery-end -->
+
+
+    <!-- What-we-require-section-start -->
+    <section class="require_wrapper ">
+        <div class="container">
+            <div class="require_banner position-relative">
+                <img src="assets/images/banner/require.jpg" alt="" class="banner_img">
+                <div class="require-inner">
+                    <div class="row gy-5">
+                        <div class="col-lg-6 col-xl-6">
+                            <div class="inner_content h-100">
+                                <div class="top_title">
+                                    <div class="content">
+                                        <h6>What To Expect When We Sand Your Floors</h6>
+                                        <p>NOISE - DUST- VAPOR</p>
+                                    </div>
+                                    <div class="icon">
+                                        <img src="assets/images/icon/wood-planks.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="card_content">
+                                    <h6 class="text-center py-2">Noise from the Machinery and Sanding Process</h5>
+                                        <div class="listed_bx">
+                                            <div class="point">
+                                                <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                                                <p>Dust from the Sanding</p>
+                                            </div>
+
+                                            <div class="point">
+                                                <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                                                <p>Vapors from the Sanding</p>
+                                            </div>
+
+                                            <div class="point">
+                                                <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                                                <p>Depending on the coatings used, there will be residual smell</p>
+                                            </div>
+
+
+                                            <div class="point">
+                                                <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                                                <p>Coating can take unto 7-10 days Full Cure.</p>
+                                            </div>
+                                        </div>
+                                        <h6 class="text-center py-2">You may need to touch up Paint after floors are
+                                            finished and dust work areas.</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-xl-6">
+                            <div class="inner_content h-100">
+                                <div class="top_title">
+                                    <div class="content">
+                                        <h6>WHAT WE REQUIRE</h6>
+                                    </div>
+                                    <div class="icon">
+                                        <img src="assets/images/icon/wood-planks.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="card_content">
+
+                                    <div class="listed_bx">
+                                        <div class="point">
+                                            <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                                            <p>Good Clear Access.</p>
+                                        </div>
+
+                                        <div class="point">
+                                            <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                                            <p>Power Supply</p>
+                                        </div>
+
+                                        <div class="point">
+                                            <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                                            <p>Restricted access to sanding area form.</p>
+                                        </div>
+
+                                        <div class="point">
+                                            <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                                            <p>No access when floor is being coated</p>
+                                        </div>
+
+                                        <div class="point">
+                                            <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                                            <p>An area for bagging dust</p>
+                                        </div>
+
+                                        <div class="point">
+                                            <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                                            <p>No pilot lights or open flames when coating.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="element_1">
+                    <img src="assets/images/icon/person1.png" alt="">
+                </div>
+                <div class="element_2">
+                    <img src="assets/images/icon/person2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What-we-require-section-end -->
+
+    <!-- Types-finish-section-start -->
+    <section class="types_wrapper position-relative">
+        <div class="container">
+            <div class="row text-center">
+                <div class="about-info-tittle">
+                    <h6>
+                        <img class="me-1" src="assets/images/icon/wood-planks.svg" alt="">TYPES OR FINISHES
+                    </h6>
+                </div>
+            </div>
+            <div class="row justify-content-center g-5 pt-5">
+                <div class="col-lg-4 col-xl-4">
+                    <div class="types_card position-relative h-100">
+                        <div class="type_title">
+                            <span>
+                                <img src="assets/images/icon/card1.png" alt="" class="static">
+                                <img src="assets/images/icon/card1-r.png" alt="" class="hovrable">
+                            </span>
+                            <h6>SOLVENT BASED URETHANE</h6>
+                        </div>
+                        <div class="type_content">
+                            <p>A durable and tough finish available in Gloss, Satin or Matt. There is a strong vapor
+                                during application. the floor will darken with time, edgebonding may occur.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-4">
+                    <div class="types_card position-relative h-100">
+                        <div class="type_title">
+                            <span>
+                                <img src="assets/images/icon/card2-w.png" alt="" class="static">
+                                <img src="assets/images/icon/card2.png" alt="" class="hovrable">
+                            </span>
+                            <h6>WATER BASED URETHANE</h6>
+                        </div>
+                        <div class="type_content">
+                            <p>Durable - Low odour - Non toxic, available in Gloss, Satin or Matt.Maintains a more
+                                natural timber colour, reduces edgebonding.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-4">
+                    <div class="types_card position-relative h-100">
+                        <div class="type_title">
+                            <span>
+                                <img src="assets/images/icon/card3.png" alt="" class="static">
+                                <img src="assets/images/icon/card3r.png" alt="" class="hovrable">
+                            </span>
+                            <h6>OIL MODIFIED URETHANE</h6>
+                        </div>
+                        <div class="type_content">
+                            <p>A combination of oils & urethane, better durability than oil based finishes, available in
+                                Gloss or Satin. Darkens with time, reduces edgebonding, slow to cure in cold weather.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-4">
+                    <div class="types_card position-relative h-100">
+                        <div class="type_title">
+                            <span>
+                                <img src="assets/images/icon/card4.png" alt="" class="static">
+                                <img src="assets/images/icon/card4-r.png" alt="" class="hovrable">
+                            </span>
+                            <h6>OIL BASED FINISHES</h6>
+                        </div>
+                        <div class="type_content">
+                            <p>Traditional types of finish, available in Gloss or Satin. Requires greater regular
+                                maintenance, darkens with time, reduces edgebonding, slow to cure in cold weather.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-xl-4">
+                    <div class="types_card position-relative h-100">
+                        <div class="type_title">
+                            <span>
+                                <img src="assets/images/icon/card5.png" alt="" class="static">
+                                <img src="assets/images/icon/card5-r.png" alt="" class="hovrable">
+                            </span>
+                            <h6>MAINTENANCE</h6>
+                        </div>
+                        <div class="type_content">
+                            <p>Matting at external doors, regular sweeping or vacuuming, damp mopping with recommended
+                                cleaner, prompt removal of spillages, protective felt pads on furniture, recoating as
+                                required</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="elemnt-1">
+            <img src="assets/images/icon/wood-planks.png" alt="">
+        </div>
+        <div class="elemnt-2">
+            <img src="assets/images/icon/wood-planks.png" alt="">
+        </div>
+    </section>
+    <!-- Types-finish-section-end -->
+
+
+    <!-- Contact-bx-start -->
+
+    <section class="contact_bx_wrapper">
+        <div class="container">
+            <div class="row align-items-center gy-4">
+                <div class="form_wrap">
+                    <div class="about-info-tittle">
+                        <h6>
+                            <img class="me-1" src="assets/images/icon/wood-planks.svg" alt="">contact us
+                        </h6>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-xl-7">
+
+                    <div class="form_card">
+                        <div class="top_content position-relative">
+                            <h3 class="text-center"><span>Get</span> In Touch</h3>
+                            <p class="text-center">Please contact us or send us via email. We are sure that you can
+                                receive our reply as soon as possible.</p>
+                            <div class="element">
+                                <img src="assets/images/icon/wood-planks.png" alt="">
+                            </div>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="number" class="form-control" id="email" placeholder="Your Number">
+                                    <label for="email">Your Phone</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Address">
+                                    <label for="subject">Address</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Tell Us">
+                                    <label for="subject">How did you hear about us?*</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        style="height: 100px"></textarea>
+                                    <label for="message">How can we help?</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-xl-5">
+                    <div class="contact_infon position-relative">
+                        <div class="info_bg">
+                            <img src="assets/images/banner/contact-info.jpg" alt="">
+                        </div>
+
+                        <div class="info_bx_cont">
+                            <div class="info_bx_card">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="content">
+                                    <h5>Mail Us</h5>
+                                    <p><a href="#">evric@intas.net.au</a></p>
+                                </div>
+                            </div>
+                            <div class="info_bx_card">
+                                <div class="icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="content">
+                                    <h5>Contact me</h5>
+                                    <p><a href="#">0412 238 860</a></p>
+                                </div>
+                            </div>
+                            <div class="info_bx_card">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="content">
+                                    <h5>Location</h5>
+                                    <p><a href="#">1A Toorak Ave,Mount Stuart TAS 7000</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact-bx-end -->
+
+    <!-- testimonials section start -->
+    <div class="testimonials-section mt-5">
+        <div class="testimonials-section-tittle">
+            <h5 class="text-center"> <img src="assets/images/icon/wood-planks.svg" alt="">testimonials</h5>
+        </div>
+        <div class="container mt-4">
+            <div class="testimonials-carousel owl-carousel owl-theme">
+                <div class="item">
+                    <div class="testimonial-card position-relative">
+                        <div class="testimonial-card-header mb-5 d-flex align-items-center gap-4">
+                            <div class="testimonial-card-header-icon">
+                                <img src="assets/images/testimonials/icon1.png" alt="">
+                            </div>
+                            <div class="testimonial-card-header-name">
+                                <h6>Mark T.</h6>
+                                <div class="testimonial-card-rating">
+                                    <i class="fa-solid fa-star star-filled"></i>
+                                    <i class="fa-solid fa-star star-filled"></i>
+                                    <i class="fa-solid fa-star star-filled"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="testimonial-card-body position-relative">
+                            <p>“ The team at Classic Floor Sanding did an outstanding job with the coatings on our
+                                floors. From helping us choose the right finish to the flawless application, they showed
+                                professionalism at every step. Our floors not only look amazing but are also
+                                well-protected. Highly recommend their services! ”</p>
+                            <div class="testimonial-card-body-arrow-icon1">
+                                <img src="assets/images/testimonials/arrow-1.svg" alt="">
+                            </div>
+                            <div class="testimonial-card-body-arrow-icon2">
+                                <img src="assets/images/testimonials/arrow-2.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="profile-bg">
+                            <div class="rectangle-icon">
+                                <img src="assets/images/testimonials/Rectangle.svg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- testimonials section end -->
+
+
+    <!-- footer-section start -->
+    <div class="footer-section">
+        <div class="footer-bg-img position-relative">
+            <img src="assets/images/footer/footer-img.webp" alt="Footer Background" class="footer-main-bg-img">
+
+            <div class="container text-white">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="fooer-logo-box">
+                            <img src="assets/images/logo/logo1.svg" alt="">
+                            <p class="mt-3">Looking for trusted experts in timber floor sanding and polishing Services?
+                                We can help! Classic Floor Sanders has been providing professional floor sanding
+                                throughout whole State Southern part of Tasmania.</p>
+                            <div class="footer-icon-box mt-3 mb-4  d-flex gap-3">
+                                <div class="footer-icon">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                </div>
+                                <div class="footer-icon">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <div class="footer-icon">
+                                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                </div>
+                                <div class="footer-icon">
+                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="link-box">
+                            <div class="link-box-tittle">
+                                <h5><img src="assets/images/icon/wood-planks.svg" alt=""> Our Links</h5>
+                            </div>
+                            <div class="link-box-main-box mt-4 mb-4">
+                                <div class="link-box-main">
+                                    <a href="#"><i class="fa-solid fa-arrow-right me-1"></i> Home</a>
+                                </div>
+                                <div class="link-box-main mt-3">
+                                    <a href="#"><i class="fa-solid fa-arrow-right me-1"></i> About Us</a>
+                                </div>
+                                <div class="link-box-main mt-3">
+                                    <a href="#"><i class="fa-solid fa-arrow-right me-1"></i>Services</a>
+                                </div>
+                                <div class="link-box-main mt-3">
+                                    <a href="#"><i class="fa-solid fa-arrow-right me-1"></i> Photo Gallery</a>
+                                </div>
+                                <div class="link-box-main mt-3">
+                                    <a href="#"><i class="fa-solid fa-arrow-right me-1"></i> Testimonials</a>
+                                </div>
+                                <div class="link-box-main mt-3">
+                                    <a href="#"><i class="fa-solid fa-arrow-right me-1"></i> Contact</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="link-box">
+                            <div class="link-box-tittle">
+                                <h5><img src="assets/images/icon/wood-planks.svg" alt=""> Our Links</h5>
+                            </div>
+                            <p class="mt-4">Our support available to help you 24 hours a day, seven days a week.</p>
+
+                            <div class="footer-timeing mb-4">
+                                <div class="timeing-box d-flex justify-content-between">
+                                    <p>Monday-Friday:</p>
+                                    <p>7am to 5pm</p>
+                                </div>
+                                <div class="timeing-box d-flex justify-content-between">
+                                    <p>Saturday:</p>
+                                    <p>By Appointment</p>
+                                </div>
+                                <div class="timeing-box d-flex justify-content-between">
+                                    <p>Sunday:</p>
+                                    <p>By Appointment</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="link-box">
+                            <div class="link-box-tittle1">
+                                <h5><img src="assets/images/icon/wood-planks.svg" alt="">Project Gallery</h5>
+                            </div>
+                            <div class="footer-gallary mt-4">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-6 mb-4">
+                                        <div class="footer-gallary-img">
+                                            <img src="assets/images/footer/img1.png" alt="Gallery Image 1"
+                                                class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6 mb-4">
+                                        <div class="footer-gallary-img">
+                                            <img src="assets/images/footer/img2.png" alt="Gallery Image 2"
+                                                class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6 mb-4">
+                                        <div class="footer-gallary-img">
+                                            <img src="assets/images/footer/img3.png" alt="Gallery Image 3"
+                                                class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6 mb-4">
+                                        <div class="footer-gallary-img">
+                                            <img src="assets/images/footer/img4.png" alt="Gallery Image 4"
+                                                class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6 mb-4">
+                                        <div class="footer-gallary-img">
+                                            <img src="assets/images/footer/img5.png" alt="Gallery Image 5"
+                                                class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6 mb-4">
+                                        <div class="footer-gallary-img">
+                                            <img src="assets/images/footer/img6.png" alt="Gallery Image 6"
+                                                class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-section end -->
 
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -275,6 +997,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <script src="assets/js/index.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
 </body>
 

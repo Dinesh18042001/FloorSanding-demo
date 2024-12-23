@@ -29,6 +29,7 @@
         width: 300px !important;
         margin-right: 30px !important;
     }
+  
 }
 
 @media(max-width:576px){
@@ -66,6 +67,38 @@
     .about-section .about-img-box{
         margin-top: 50px;
     }
+    .service-section{
+        margin-top: 176px;
+    }
+    .service-section .service-info img{
+        height: 300px;
+    }
+   
+    .require_wrapper .require_banner .banner_img{
+        height: 750px;
+        object-fit: cover;
+    }
+    .service-section .bg_img .inner-banner{
+        height: 629px;
+    }
+    .require_wrapper .require_banner .element_1{
+        bottom: -399px;
+    }
+    .require_wrapper .require_banner .element_2{
+        bottom: -399px;
+    }
+    .types_wrapper{
+        margin-top: 301px;
+    }
+    .types_wrapper .elemnt-1,  .types_wrapper .elemnt-2{
+        display: none;
+    }
+    .contact_bx_wrapper .contact_infon .info_bx_cont .info_bx_card{
+        margin-right: 0;
+    }
+    .contact_bx_wrapper .contact_infon .info_bg img{
+        height: 375px;
+    }
 }
 
 @media(max-width:576px) {
@@ -85,5 +118,66 @@
     }
     .dot-icon img{
         display: none;
+    }
+    .banner-sertion .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        z-index: 2;
+        width: 100%;
+    }
+    .service-section{
+        margin-top: 87px;
+    }
+    .service-section .service-slide .owl-dots{
+        display: block;
+    }
+    .require_wrapper .require_banner .require-inner .inner_content .top_title{
+        padding: 0 10px;
+    }
+    .require_wrapper .require_banner .banner_img{
+        height: 800px;
+        object-fit: cover;
+    }
+    .service-section .bg_img .inner-banner{
+        height: 800px;
+    }
+    .types_wrapper{
+        margin-top: 389px;
+    }
+}
+
+
+/* footer-section start */
+
+@media(max-width:991px){
+    .footer-section .footer-main-bg-img{
+        height: 1150px; 
+    }
+    .footer-section .footer-bg-img{
+        height: 1150px;
+    } 
+}
+@media(max-width:576px){
+    .footer-section .footer-main-bg-img{
+        height: 1500px; 
+    }
+    .footer-section .footer-bg-img{
+        height: 1400px;
+    } 
+}
+/* footer-section end */
+
+
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+    .service-section .service-slide .owl-nav {
+        left: -279px;
+    }
+   
+}
+@media only screen and (min-width: 1209px) and (max-width: 1260px){
+    .service-section .service-slide .owl-nav{
+        bottom: -10px;
     }
 }
