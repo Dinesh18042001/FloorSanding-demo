@@ -98,3 +98,27 @@ $('.testimonials-carousel').owlCarousel({
         }
     }
 });
+
+$('.testimonials-carousel1').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    // autoplay: true,              
+    // autoplayTimeout: 3000,      
+    // autoplayHoverPause: true, 
+    navText: [
+        '<span><i class="fas fa-long-arrow-alt-left"></i></span>', // Previous button
+        '<span><i class="fas fa-long-arrow-alt-right"></i></span>' // Next button
+    ],
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        1000: {
+            items: 1
+        }
+    }
+});
